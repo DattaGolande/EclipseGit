@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jbk.pages.ExtentReportv4">
+      <class name="com.jbk.pages.DashboardPage">
         <methods>
-          <include name="getResult"/>
-          <include name="endReport"/>
-          <include name="verifyLogo"/>
-          <include name="startReport"/>
-          <include name="setup"/>
+          <include name="setUpBrowser"/>
+          <include name="verifyCourseSymbol"/>
         </methods>
-      </class> <!-- com.jbk.pages.ExtentReportv4 -->
+      </class> <!-- com.jbk.pages.DashboardPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
